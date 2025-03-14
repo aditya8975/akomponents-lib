@@ -1,0 +1,95 @@
+.akk-auth-card {
+  display: flex;
+  width: 500px;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 20px;
+  align-items: center;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.akk-auth-card-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #ddd;
+  padding: 10px;
+}
+
+.akk-auth-logo {
+  width: 120px;
+}
+
+.akk-auth-card-right {
+  flex: 2;
+  padding: 20px;
+}
+
+.akk-auth-card-right h2 {
+  margin-bottom: 10px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.password-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.password-container input {
+  flex: 1;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.akk-auth-button {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.akk-auth-button:hover {
+  opacity: 0.9;
+}
+
+.akk-auth-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.akk-auth-links a {
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.akk-auth-links a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,41 @@
+.ak-card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 25px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0px 5px 0px #191919; /* Dark shadow */
+    border: 3px solid black; /* Thick black border */
+    font-family: "Arial", sans-serif;
+  }
+  
+  .ak-card-title {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .ak-card-content {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .ak-card-button {
+    background-color: #f57ac1;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0px 4px 0px #191919;
+    border: 2px solid black;
+    transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+  }
+  
+  .ak-card-button:active {
+    transform: translateY(3px);
+    box-shadow: 0px 2px 0px #191919;
+  }
+  

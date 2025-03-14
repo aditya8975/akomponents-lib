@@ -1,0 +1,12 @@
+.ak-signup-card {
+  border-radius: 20px;
+  padding: 30px;
+  width: 320px;
+  text-align: center;
+  font-family: sans-serif;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.ak-signup-card h2 {
+  margin-bottom: 15px;
+}
