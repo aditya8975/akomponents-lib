@@ -32,3 +32,4 @@ pnpm-debug.log*
 # Keep Storybook config and stories
 !.storybook/
 !src/components/**/*.stories.jsx
+*storybook.log
