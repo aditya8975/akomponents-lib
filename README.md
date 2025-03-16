@@ -43,7 +43,7 @@ AKFooter - Clean footers
 AKInput - Form input fields
 AKHeroSection - Hero banners
 AKSidebar - Navigation sidebar
-AKNavbar - Top navigation bars
+AKNavbar - Top navigation barsa
 AKLoginCard - Stylish login forms
 AKSignupCard - Elegant sign-up forms
 ...and more coming soon! 🚀
