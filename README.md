@@ -1,4 +1,4 @@
-# 🚀 AKomponents Library - Modern UI Components for React  
+# 🚀 AKomponents Library - Modern UI Components
 
 **AKomponents Library** is a powerful and customizable React UI component library designed to help developers build modern, responsive, and elegant interfaces with ease.  
 
