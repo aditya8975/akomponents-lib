@@ -19,7 +19,7 @@ npm install akomponents-lib
 
 ### **Install via akmanager**
 ```sh
-ak i akomponent
+ak i akomponents-lib
 ```
 
 ---
