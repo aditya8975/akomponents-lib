@@ -14,12 +14,12 @@ Akomponent is a **lightweight, customizable UI component library** built for mod
 ## 📦 Installation
 ### **Install via npm**
 ```sh
-npm install akomponent
+npm install akomponents-lib
 ```
 
-### **Install via yarn**
+### **Install via akmanager**
 ```sh
-yarn add akomponent
+ak i akomponents-lib
 ```
 
 ---
