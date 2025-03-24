@@ -1,19 +1,19 @@
 .custom-button {
-    background-color: #f57ac1; /* Light Pink */
+    background-color: #f57ac1; 
     color: white;
     font-size: 16px;
     font-weight: bold;
     border: none;
     padding: 10px 20px;
-    border-radius: 30px; /* Fully rounded */
+    border-radius: 30px; 
     cursor: pointer;
     position: relative;
-    box-shadow: 0px 4px 0px #191919; /* Black shadow under button */
+    box-shadow: 0px 4px 0px #191919;
     transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
   }
   
   .custom-button:active {
     transform: translateY(3px);
-    box-shadow: 0px 2px 0px #191919; /* Reducing shadow on press */
+    box-shadow: 0px 2px 0px #191919; 
   }
   

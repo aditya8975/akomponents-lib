@@ -6,14 +6,14 @@ const AKButton = ({ label, title, bgColor, textColor, hoverColor, onClick, varia
   return (
     <button
       className={`custom-button ${variant}`}
-      title={title} // Tooltip on hover
+      title={title} 
       onClick={onClick}
       style={{
         backgroundColor: bgColor,
         color: textColor,
       }}
-      onMouseOver={(e) => (e.target.style.backgroundColor = hoverColor)} // Hover effect
-      onMouseOut={(e) => (e.target.style.backgroundColor = bgColor)} // Reset color on mouse out
+      onMouseOver={(e) => (e.target.style.backgroundColor = hoverColor)} 
+      onMouseOut={(e) => (e.target.style.backgroundColor = bgColor)} 
     >
       {label}
     </button>
@@ -32,9 +32,9 @@ AKButton.propTypes = {
 
 AKButton.defaultProps = {
   title: "Click here",
-  bgColor: "#007bff", // Default blue
+  bgColor: "#007bff", 
   textColor: "#ffffff",
-  hoverColor: "#0056b3", // Darker blue on hover
+  hoverColor: "#0056b3", 
   variant: "primary",
 };
 
